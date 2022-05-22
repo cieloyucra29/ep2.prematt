@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+
+h2 {
+    font-size: 36px;
+    line-height: 46px;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+    line-height: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav a{
+    color: black;
+}
+
+
+
+
+#inicio{
+    background-image:url(../image/imagen\ principal.png);
+   
+    position: relative;
+   padding-bottom: 7rem;
+}
+
+a {
+    color: black;
+}
+
+.smart{
+    padding-top: 80px;
+}
+
+
+
+#product-features{
+padding-top: 6rem;
+padding-bottom: 6rem;
+}
+
+.info{
+    background-color: white;
+}
+.info p{
+   color:#777;
+}
+#area{
+    
+    background-color: #f9f9f9;
+    padding-top: 7rem;
+}
+
+
+#product-area
+{
+   padding: 8rem;
+}
+
+#product-area img{
+    width: 9rem;
+}
+
+
+
+
+
+
+#area-video{
+    background-image: url(/image/banner-3.jpg);
+    padding:120px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+
+.cuadro-video{
+    padding:150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image:url(/image/circle-1.png);
+}
+
+.contenido-video h2 {
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.contenido-video p {
+    color: #fff;
+    font-size:  size 16px;
+    font-family: 'lato' sans-serif;
+}
+
+
+a .d-table-cell{
+    color:#fff;
+    font-size: normal;
+    font-weight: 400;
+}
+
+.icofont-check{
+    text-decoration: none;
+}
+
+#subscribe-area{
+    background-image: url(/image/banner-3.jpg);
+    padding: 8rem;
+}
+
+.subscribe-box{
+    padding: 60px 40px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.subscribe-form {
+    position: relative;
+}
+
+.subscribe-form button {
+    background-color: #ff4d1c;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 52px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    border-radius: 4px 30px 30px 4px;
+    padding: 0 40px;
+    font-weight: 600;
+}
+
+
+.subscribe-form input {
+    width: 100%;
+    float: left;
+    color: #7e7e7e;
+    border: 0;
+    height: 65px;
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 3px solid #e0e3f7;
+}
+
+.icon{
+    border-radius: 50%;
+    max-width: 40%; 
+    max-height: 45%;
+    background-color: beige;
+    margin-left: 90px;
+    margin-bottom: 8px;
+
+}
+
+.icon i{
+font-size: 50px;
+
+}
+
+
+#Reloj{
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    
+}
+
+.choose{
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+#Reloj i{
+    font-size: 50px;
+    color:#F56E00;
+}
+
+
+
+/*---------------FAQ------------------- */
+
+#faq-area {
+    padding-top: 110px;
+    
+    
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #ff4d1c;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+
+.accordion-item {
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+    border: 1px solid #e6f0fa;
+}
+
+.accordion-header :hover{
+    background-color: #ff4d1c;
+    color: white;
+}
+
+
+.accordion-body {
+    color: #777;
+    font-family: 'Lato', sans-serif;
+    line-height: 26px;
+
+}
+
+
+
+
+/* -----------------------------Joel  */
+
+
+#area-contacto {
+    padding: 110px 0 105px;
+    background-image: url(/image/shape-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+
+.help-block.with-errors li {
+    color: #ff0000;
+    margin: 4px 0 0;
+}
+
+
+.contact-img img {
+    max-width: 350px;
+}
+
+
+.animation-jump {
+    position: relative;
+    -webkit-animation: animation-jump 2s ease-in-out infinite;
+    animation: animation-jump 2s ease-in-out infinite;
+}
+
+
+.contact-form button {
+    background-color: #ff4d1c;
+    border: 0;
+    padding: 14px 30px;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+
+.contact-form input {
+    height: 55px;
+    border: 0;
+    padding-left: 20px;
+    border-bottom: 1px solid #e6f0fa;
+    border-radius: 0;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+textarea.form-control {
+    height: auto;
+}
+
+
+.contact-form textarea {
+    border: 0;
+    border-bottom: 1px solid #e6f0fa;
+    padding: 20px 0 0 20px;
+    border-radius: 0;
+}
+
+
+
+/* Inicio galeriaDinamica */
+
+#galeriadinamica h2{
+    text-align: right;
+    font-size: 35px;
+    font-family:Verdana, Tahoma, sans-serif;
+    font-style:bold;
+    color: #e6f0fa;
+    
+}
+
+#galeriadinamica{
+    background-color: #dfe2e5;
+    color: var(--color-blanco--);
+}
+
+
+#galeriadinamica .img-thumbnail{
+    border-radius: 150px;
+}
+
+#galeriadinamica {
+    background-image: url(/Pack\ Imagenes\ Apple\ Watch/12539.jpg);
+}
+
+
+#galeriadinamica figure{
+    position: relative;
+}
+
+
+#galeriadinamica figure figcaption{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    top:0;
+    display: none;
+    border-radius: 45%;
+    color: var(--color-blanco);
+}
+
+
+#galeriadinamica figure figcaption div{
+    height: 100;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+#galeriadinamica figure figcaption div i{
+    cursor:pointer;
+}
+
+
+h6{
+    color: white;
+    
+}
+
+
+#fondo-transparente{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index: 2000;
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    color: var(--color-blanco);
+}
+
+#fondo-transparente img{
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+
+/*Fin Galeria dinamica*/
+
+
+
+/*Clearfix*/
+
+
+
+#appleFletch{
+    padding-top: 45px;
+}
+#appleFletch .list-group{
+
+    border-radius: 1.25rem;
+}
+
+
+
+
+/*Clearfix End*/
+
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+
+#parts{
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+    }
+
+.icon2{
+    border-radius: 50%;
+    max-width: 40%; 
+    max-height: 45%;
+    background-color:#ff0000;
+    margin-left: 90px;
+    margin-bottom: 8px;
+
+}
+
+.icon2 i{
+font-size: 50px;
+
+}
+
+
+
+#Technology{
+    background-color: black;
+    max-width: 100%;
+  
+}
+
+#Technology h2{
+   color: #fff;
+   
+  
+}
+
+
+
+#product-area2{
+    padding: 7rem;
+}
+
+#product-area2 img{
+    width: 11rem;
+}
+
+
+
+
+
+
+
+
+/* footer ------------------------------ */
+#footer {
+    padding: 50px 0 30px;
+}
+
+.bg-gray {
+    background-color: #f9f9f9;
+}
+
+
+.footer-social li span {
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+
+.footer-social li a {
+    display: block;
+    border: 1px solid #e03b0d;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    color: #e03b0d;
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social ul{
+    display: flex;
+}
+
+
+
+a {
+    color: #e03b0d;
+    text-decoration: none;
+}
+
+
+
+
+
+.clearfix{
+    padding: 0rem;
+}
+.clearfix img{
+max-width: 30%;
+}
+
+/* ------------------------ */
+
+#contvideo{
+    background-color:#bbbfc7;
+    padding: 45px;
+
+}
+
+#galeria{
+    padding: 6rem;
+}
+
+
+
+#area2{
+    padding: 7rem;
+}
+
+
+
+
+.informacion{
+    background-color: #ced4da;
+    margin-top: 45px;
+}
+
+.bi-zoom-in{
+color: white;
+}
